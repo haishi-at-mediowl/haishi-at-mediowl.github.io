@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "AssetSample",
+"productVersion": "1",
+"dataUrl": "31bf6972044803c327502199b7bd62b3.unityweb",
+"wasmCodeUrl": "293b0650306492863557e5bd97167cbe.unityweb",
+"wasmFrameworkUrl": "f8d1e5f529648dee9494e15ffa5ac9da.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#303030",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.3f1"
+}
