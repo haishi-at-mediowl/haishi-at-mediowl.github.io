@@ -4,12 +4,23 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | AssetSample</title>
+    <link rel="manifest" href="manifest.json">
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <script src="TemplateData/UnityProgress.js"></script>
     <script src="Build/56b27af957420c10aef972428bfcf1ed.js"></script>
     <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/9848d7c7586eb9f300fca65ce0e9de41.json", {onProgress: UnityProgress});
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/c91cf55ad79302429f85b9d54701f233.json", {onProgress: UnityProgress});
+    </script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('service.js')
+          .then((register) => {
+            console.log('Service worker registoration success. scope:', register.scope);
+          }).catch((error) => {
+            console.log('Service worker registoration failure. error:', error);
+          });
+      }
     </script>
   </head>
   <body>
