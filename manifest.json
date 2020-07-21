@@ -5,9 +5,9 @@
   "start_url": "index.html",
   "icons": [
       {
-          "src": "TemplateData/webgl-logo.png",
-          "sizes": "192x192",
-          "type": "image/png"
+          "src": "TemplateData/favicon.ico",
+          "sizes": "256x256",
+          "type": "image/x-icon"
       }
   ]
 }
