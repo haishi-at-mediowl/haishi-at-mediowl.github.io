@@ -1,6 +1,7 @@
 var CACHE_NAME = 'quiz-sample-caches';
 var urlsToCache = [
   '/haishi-at-mediowl.github.io/',
+  '/dummy-cors-enabled-cdn/,
 ];
 
 self.addEventListener('install', function(event) {
